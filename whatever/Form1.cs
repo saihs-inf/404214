@@ -40,11 +40,9 @@ namespace whatever
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("good");
+            label1.Text = "i hate english～～";
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("66666666");
-        }
+       
     }
 }
