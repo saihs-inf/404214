@@ -41,5 +41,11 @@ namespace whatever
         {
             MessageBox.Show("good");
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "HELLO ";
+            textBox1.Text +="WORLD";
+        }
     }
 }
